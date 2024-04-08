@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@media only screen and (max-width: 600px) {
+    .box {
+        flex-direction: column;
+        align-items: normal;
+    }
+}
+
+.links {
+    margin-top: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.links a {
+    color: teal;
+}
+
+.urls{
+    margin-top: 10px;
+    font-weight: 500;
+}
+
+a:hover {
+    color: orange;
+}
