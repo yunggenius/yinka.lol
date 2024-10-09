@@ -16,7 +16,7 @@ const Home: NextPage = () => {
 
       <div className="links inline">
         <main className={styles.main}>
-          <h1 className=" text-5xl">Hi, I'm Yinka</h1>
+          <h1 className=" text-5xl">Hello, I'm Yinka</h1>
           <br />
           <p>I enjoy building tools, and simplifying technical materials. </p>
           <br />
